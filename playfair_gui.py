@@ -131,6 +131,7 @@ class PlayfairGUI:
                                  insertbackground=self.colors['accent'], font=('Consolas', 10),
                                  relief='flat', borderwidth=2)
         self.input_text.pack(fill=tk.BOTH, expand=True)
+        self.input_text.insert("1.0", "útok na čeňka 123! @#$°")
         
         # Tlačítka akcí
         button_frame = ttk.Frame(parent, style='Card.TFrame')
